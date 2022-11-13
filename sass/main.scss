@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+	background-color: rgba(17, 24, 39, 1);
+}
+.navbar {
+	width: 100%;
+	padding: 10px;
+	border-bottom: 0.5px solid #ccc;
+
+	.nav-link {
+		color: #ccc;
+		border-radius: 15px;
+		margin: 0 10px;
+	}
+
+	.nav-link.active {
+		color: #fff;
+	}
+
+	.nav-link.active:hover {
+		color: #fff;
+	}
+
+	.nav-link:hover {
+		border-radius: 15px;
+		background-color: rgb(71, 70, 70);
+		color: #ccc;
+	}
+
+	.navbar-brand {
+		color: #fff;
+	}
+	.logo {
+		width: 50px;
+	}
+	.navbar-toggler,
+	.navbar-collapse {
+		color: #fff;
+	}
+
+	.fa-github {
+		font-size: 24px;
+		cursor: pointer;
+	}
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	color: rgb(252, 252, 252);
+	padding: 10px;
+	height: 100%;
+
+	h1 {
+		font-weight: 700;
+		font-size: 60px;
+		padding-top: 100px;
+	}
+
+	p {
+		padding-top: 30px;
+		color: rgb(161, 159, 159);
+	}
+}
+
+.theme-switcher {
+	cursor: pointer;
+	width: 65px;
+	height: 23px;
+	margin-top: 10px;
+}
+
+.theme-switcher-ball {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: -20px;
+	cursor: pointer;
+}
