@@ -79,6 +79,27 @@ body {
   width: 20px;
   height: 20px;
   margin-top: 10px;
-  margin-left: -20px;
+  margin-left: -25px;
   cursor: pointer;
+}
+
+.main-readme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ts-icon {
+  width: 1rem;
+}
+
+.main-readme__header--text {
+  display: inline;
+  color: #ccc;
+}
+
+@media (max-width: 990px) {
+  .theme-switcher-ball {
+    margin-left: -29px;
+  }
 }/*# sourceMappingURL=main.css.map */
