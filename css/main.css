@@ -12,6 +12,13 @@ body {
   background-color: rgb(17, 24, 39);
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar {
   width: 100%;
   padding: 10px;
@@ -49,7 +56,6 @@ body {
 }
 
 .main-content {
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -84,9 +90,19 @@ body {
 }
 
 .main-readme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 1000px;
+  box-shadow: 7px -6px 13px -10px rgb(67, 68, 84);
+}
+
+.main-readme__header {
+  padding: 10px;
+  background-color: hsla(0deg, 0%, 4%, 0.8);
+}
+
+.main-readme__content {
+  color: #fff;
+  background-color: #1d1f21;
+  padding: 20px;
 }
 
 .ts-icon {
