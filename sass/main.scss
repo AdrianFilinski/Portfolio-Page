@@ -96,8 +96,8 @@ body {
 }
 
 .main-readme {
-	border-radius: 25px;
 	max-width: 1000px;
+	margin: 40px 10px 0 10px;
 }
 
 .main-readme__header {
@@ -109,6 +109,10 @@ body {
 	color: #fff;
 	background-color: #1d1f21;
 	padding: 20px;
+
+	li {
+		list-style: none;
+	}
 }
 
 .ts-icon {
@@ -124,4 +128,9 @@ body {
 	.theme-switcher-ball {
 		margin-left: -29px;
 	}
+}
+
+.experience {
+	color: rgb(252, 252, 252);
+	display: grid;
 }
