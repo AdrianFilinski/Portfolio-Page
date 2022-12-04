@@ -97,7 +97,7 @@ body {
 
 .main-readme {
 	max-width: 1000px;
-	margin: 40px 10px 0 10px;
+	margin: 3rem 1rem 0 1rem;
 }
 
 .main-readme__header {
@@ -136,10 +136,29 @@ body {
 	grid-template-rows: auto;
 	color: rgb(252, 252, 252);
 	max-width: 1300px;
+	margin: 1rem;
 }
 
-.experience-company {
-	border: 1px solid white;
+.experience-company__empik,
+.experience-company__tmobile {
+	margin: 30px 0;
+	padding: 0 30px;
+
+	p {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	span {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.experience {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 h2 {
@@ -148,9 +167,8 @@ h2 {
 	color: rgb(252, 252, 252);
 }
 
-@media (max-width: 1023px) {
-	.experience {
-		display: flex;
-		flex-direction: column;
-	}
+.active {
+	background-color: rgba(43, 50, 59);
+	border: 1px solid rgba(43, 50, 59);
+	max-width: 400px;
 }
