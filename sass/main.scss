@@ -131,6 +131,26 @@ body {
 }
 
 .experience {
-	color: rgb(252, 252, 252);
 	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	color: rgb(252, 252, 252);
+	max-width: 1300px;
+}
+
+.experience-company {
+	border: 1px solid white;
+}
+
+h2 {
+	margin: 3rem;
+	font-weight: bold;
+	color: rgb(252, 252, 252);
+}
+
+@media (max-width: 1023px) {
+	.experience {
+		display: flex;
+		flex-direction: column;
+	}
 }
