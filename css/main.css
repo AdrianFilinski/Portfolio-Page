@@ -161,11 +161,16 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   color: rgb(252, 252, 252);
-  max-width: 413px;
 }
 
 .active {
   background-color: rgb(43, 50, 59);
   border: 1px solid rgb(43, 50, 59);
   max-width: 400px;
+}
+
+.toolbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
