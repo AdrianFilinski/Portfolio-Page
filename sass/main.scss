@@ -160,6 +160,9 @@ body {
 	}
 }
 
+.experience-decription {
+	margin: 10px;
+}
 @media (max-width: 1023px) {
 	.experience {
 		display: flex;
@@ -184,4 +187,5 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 10px;
 }
