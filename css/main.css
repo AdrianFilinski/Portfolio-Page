@@ -140,6 +140,7 @@ body {
 .experience-company__tmobile {
   margin: 30px 0;
   padding: 0 30px;
+  cursor: pointer;
 }
 .experience-company__empik h3,
 .experience-company__tmobile h3 {
@@ -183,6 +184,7 @@ h2 {
   flex-wrap: wrap;
   margin: 10px;
   font-size: 28px;
+  color: rgb(161, 159, 159);
 }
 .toolbox span {
   margin: 10px;
