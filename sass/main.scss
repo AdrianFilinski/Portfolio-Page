@@ -196,7 +196,7 @@ h2 {
 	background-color: rgba(43, 50, 59);
 	border: 1px solid rgba(43, 50, 59);
 	border-radius: 7px;
-	max-width: 400px;
+	max-width: 393;
 	padding: 30px;
 }
 
@@ -215,10 +215,44 @@ h2 {
 }
 
 footer {
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	color: #ccc;
 	margin-top: 3rem;
 	i {
 		padding: 10px;
 		font-size: 24px;
+	}
+}
+
+@media (min-width: 1200px) {
+	footer,
+	.experience {
+		max-width: 1140px;
+	}
+}
+
+@media (max-width: 1023px) {
+	footer {
+		max-width: 800px;
+		.footer-menu span,
+		.social-media {
+			padding: 5px;
+			margin: 5px;
+		}
+	}
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+	footer {
+		max-width: 1050px;
+	}
+}
+
+@media (max-width: 768px) {
+	footer {
+		width: 600px;
 	}
 }
