@@ -194,4 +194,13 @@ h2 {
 }
 .toolbox span {
   margin: 10px;
+}
+
+footer {
+  color: #ccc;
+  margin-top: 3rem;
+}
+footer i {
+  padding: 10px;
+  font-size: 24px;
 }/*# sourceMappingURL=main.css.map */
