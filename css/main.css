@@ -138,18 +138,17 @@ body {
 
 .experience-company__empik,
 .experience-company__tmobile {
-  margin: 30px 0;
-  padding: 0 30px;
   cursor: pointer;
+  margin: 30px 10px;
+  padding: 0 30px;
 }
 .experience-company__empik h3,
 .experience-company__tmobile h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 .experience-company__empik span,
 .experience-company__tmobile span {
-  padding: 0 0 1rem 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .experience-decription {
@@ -174,7 +173,7 @@ h2 {
   border: 1px solid rgb(43, 50, 59);
   border-radius: 7px;
   max-width: 400px;
-  margin: 1rem;
+  padding: 30px;
 }
 
 .toolbox {
