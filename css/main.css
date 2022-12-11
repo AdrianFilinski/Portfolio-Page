@@ -9,7 +9,7 @@
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(17, 24, 39);
+  background: radial-gradient(circle, rgb(17, 24, 39) 0%, rgb(41, 64, 97) 20%, rgb(41, 63, 96) 26%, rgb(39, 60, 91) 29%, rgb(17, 24, 39) 100%);
 }
 
 .main {
@@ -20,9 +20,10 @@ body {
 }
 
 .navbar {
+  border-bottom: 0.5px solid #ccc;
   width: 100%;
   padding: 10px;
-  border-bottom: 0.5px solid #ccc;
+  position: relative !important;
 }
 .navbar .nav-link {
   color: #ccc;
