@@ -154,6 +154,9 @@ body {
 .experience-decription {
   margin: 10px;
 }
+.experience-decription .date {
+  font-weight: bold;
+}
 
 @media (max-width: 1023px) {
   .experience {

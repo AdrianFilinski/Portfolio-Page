@@ -170,6 +170,10 @@ body {
 
 .experience-decription {
 	margin: 10px;
+
+	.date {
+		font-weight: bold;
+	}
 }
 @media (max-width: 1023px) {
 	.experience {
