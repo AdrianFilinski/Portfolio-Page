@@ -158,6 +158,10 @@ body {
   font-weight: bold;
 }
 
+.show {
+  display: none;
+}
+
 @media (max-width: 1023px) {
   .experience {
     display: flex;
