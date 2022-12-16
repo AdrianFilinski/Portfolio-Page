@@ -7,7 +7,7 @@ const date = document.querySelector('.date');
 // funckja, która dodaje klasę do experience i usuwa klasę active z drugiego
 // zmienia content w date i description.
 
-const changeCopy = () => {
+const setEmpikExperience = () => {
     date.textContent = "2021.07 - 2022.02";
     description.textContent = "ipsum dolor sit amet consectetur adipisicing elitTenetur odio praesentium libero voluptate voluptatibus fugiat nisi accusantium, repellat ducimus nobis nemocorrupti molestiae quasi nesciunt, et voluptatem labore provident maxime.";
     empikExperience.classList.add('active');
