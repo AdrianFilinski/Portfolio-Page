@@ -22,5 +22,5 @@ const setTmobileExperience = () => {
 }
 
 tmobileExperience.addEventListener('click', setTmobileExperience)
-empikExperience.addEventListener('click', changeCopy);
+empikExperience.addEventListener('click', setEmpikExperience);
 
