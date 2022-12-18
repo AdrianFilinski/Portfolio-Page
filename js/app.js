@@ -6,6 +6,8 @@ const date = document.querySelector('.date');
 
 const header = document.querySelector('#header');
 
+const themeSwitcher = document.querySelector('.theme-switcher');
+
 
 const setEmpikExperience = () => {
     date.textContent = "2021.07 - 2022.02";
