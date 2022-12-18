@@ -7,10 +7,6 @@ const date = document.querySelector('.date');
 const header = document.querySelector('#header');
 
 
-
-// funckja, która dodaje klasę do experience i usuwa klasę active z drugiego
-// zmienia content w date i description.
-
 const setEmpikExperience = () => {
     date.textContent = "2021.07 - 2022.02";
     description.textContent = "ipsum dolor sit amet consectetur adipisicing elitTenetur odio praesentium libero voluptate voluptatibus fugiat nisi accusantium, repellat ducimus nobis nemocorrupti molestiae quasi nesciunt, et voluptatem labore provident maxime.";
@@ -25,6 +21,9 @@ const setTmobileExperience = () => {
     tmobileExperience.classList.add('active');
 }
 
+tmobileExperience.addEventListener('click', setTmobileExperience)
+empikExperience.addEventListener('click', setEmpikExperience);
+
 let i = 0;
 const text = "Adrian Filiński";
 let speed = 150;
@@ -38,7 +37,4 @@ const typeWriter = () => {
 }
 
 typeWriter();
-
-tmobileExperience.addEventListener('click', setTmobileExperience)
-empikExperience.addEventListener('click', setEmpikExperience);
 
