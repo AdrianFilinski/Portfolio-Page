@@ -4,6 +4,10 @@ const description = document.querySelector('.description');
 const empikDescription = document.querySelector('#empik_decription');
 const date = document.querySelector('.date');
 
+const header = document.querySelector('#header');
+
+
+
 // funckja, która dodaje klasę do experience i usuwa klasę active z drugiego
 // zmienia content w date i description.
 
@@ -20,6 +24,20 @@ const setTmobileExperience = () => {
     empikExperience.classList.remove('active');
     tmobileExperience.classList.add('active');
 }
+
+let i = 0;
+const text = "Adrian Filiński";
+let speed = 150;
+
+const typeWriter = () => {
+    if (i < text.length) {
+        document.getElementById("typing").textContent += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
+typeWriter();
 
 tmobileExperience.addEventListener('click', setTmobileExperience)
 empikExperience.addEventListener('click', setEmpikExperience);
