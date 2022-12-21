@@ -1,0 +1,42 @@
+.navbar {
+	border-bottom: 0.5px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	position: relative !important;
+
+	.nav-link {
+		color: #ccc;
+		border-radius: 15px;
+		margin: 0 10px;
+	}
+
+	.nav-link.active {
+		color: #fff;
+	}
+
+	.nav-link.active:hover {
+		color: #fff;
+	}
+
+	.nav-link:hover {
+		border-radius: 15px;
+		background-color: rgb(71, 70, 70);
+		color: #ccc;
+	}
+
+	.navbar-brand {
+		color: #fff;
+	}
+	.logo {
+		width: 50px;
+	}
+	.navbar-toggler,
+	.navbar-collapse {
+		color: #fff;
+	}
+
+	.fa-github {
+		font-size: 24px;
+		cursor: pointer;
+	}
+}
