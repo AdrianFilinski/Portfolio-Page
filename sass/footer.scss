@@ -1,5 +1,5 @@
 footer {
-	width: 100%;
+	width: 90%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -26,21 +26,15 @@ footer {
 	}
 }
 
-@media (min-width: 1200px) {
-	footer,
-	.experience {
-		max-width: 1140px;
-	}
-}
-
 @media (min-width: 1024px) and (max-width: 1199px) {
 	footer {
-		max-width: 1000px;
+		max-width: 1190px;
 	}
 }
 
 @media (min-width: 601px) and (max-width: 759px) {
 	footer {
+		width: auto;
 		padding: 10px;
 	}
 }
@@ -54,7 +48,7 @@ footer {
 
 @media only screen and (max-width: 992px) {
 	footer {
-		max-width: 760px;
+		max-width: 992px;
 		.social-media {
 			padding: 5px;
 			margin: 5px;
