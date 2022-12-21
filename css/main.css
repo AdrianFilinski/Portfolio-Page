@@ -19,43 +19,6 @@ body {
   justify-content: center;
 }
 
-.navbar {
-  border-bottom: 0.5px solid #ccc;
-  width: 100%;
-  padding: 10px;
-  position: relative !important;
-}
-.navbar .nav-link {
-  color: #ccc;
-  border-radius: 15px;
-  margin: 0 10px;
-}
-.navbar .nav-link.active {
-  color: #fff;
-}
-.navbar .nav-link.active:hover {
-  color: #fff;
-}
-.navbar .nav-link:hover {
-  border-radius: 15px;
-  background-color: rgb(71, 70, 70);
-  color: #ccc;
-}
-.navbar .navbar-brand {
-  color: #fff;
-}
-.navbar .logo {
-  width: 50px;
-}
-.navbar .navbar-toggler,
-.navbar .navbar-collapse {
-  color: #fff;
-}
-.navbar .fa-github {
-  font-size: 24px;
-  cursor: pointer;
-}
-
 .main-content {
   justify-content: center;
   align-items: center;
