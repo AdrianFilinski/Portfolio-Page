@@ -1,6 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  color: azure;
   position: relative;
+  font-size: 19px;
   font-family: "Montserrat", sans-serif;
   background: rgb(17, 24, 39) 0%;
-  border-color: rgba(43, 50, 59, 0.95);
+  line-height: 2;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 8.5rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding: 150px 150px 0 150px;
+}
+
+@media (min-width: 1300px) {
+  .main {
+    padding: 20px 75px;
+  }
+}
+@media (max-width: 1299px) {
+  h1 {
+    padding: 20px 30px;
+  }
+  .main {
+    padding: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 27px;
+    line-height: 2;
+    text-align: left;
+    padding: 20px;
+  }
+  .main {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+}
+.second {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 25px;
 }/*# sourceMappingURL=about.css.map */
