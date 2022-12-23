@@ -8,8 +8,10 @@
 
 body {
   position: relative;
+  font-size: 19px;
   font-family: "Montserrat", sans-serif;
-  background: radial-gradient(circle, rgb(17, 24, 39) 0%, rgb(41, 64, 97) 20%, rgb(41, 63, 96) 26%, rgb(39, 60, 91) 29%, rgb(17, 24, 39) 100%);
+  background: rgb(17, 24, 39) 0%;
+  line-height: 2;
 }
 
 .main {
@@ -94,6 +96,7 @@ body {
 }
 .experience {
   display: grid;
+  font-size: 19px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   color: rgb(252, 252, 252);
@@ -117,10 +120,14 @@ body {
 }
 
 .experience-decription {
-  margin: 10px;
+  margin: 20px;
 }
 .experience-decription .date {
   font-weight: bold;
+}
+
+.description-tools {
+  color: rgb(159, 170, 187);
 }
 
 @media (max-width: 1023px) {
