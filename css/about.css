@@ -22,15 +22,22 @@ h1 {
   padding-top: 8.5rem;
 }
 
-.main {
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+.header__container {
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  padding: 150px 150px 0 150px;
+  gap: 5rem;
+  height: 100%;
 }
 
 @media (max-width: 1460px) {
-  .main {
+  .header__container {
     padding: 20px 75px;
   }
 }
@@ -38,12 +45,12 @@ h1 {
   h1 {
     padding: 20px 30px;
   }
-  .main {
+  .header__container {
     padding: 20px;
   }
 }
 @media (max-width: 1023px) {
-  .main {
+  .header__container {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
   }
@@ -55,7 +62,7 @@ h1 {
     text-align: left;
     padding: 20px;
   }
-  .main {
+  .header__container {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
   }
