@@ -5,6 +5,10 @@
   position: relative !important;
   font-size: 1rem;
 }
+.navbar .nav__container {
+  display: flex;
+  justify-content: space-between;
+}
 .navbar .nav-link {
   color: #ccc;
   border-radius: 15px;
