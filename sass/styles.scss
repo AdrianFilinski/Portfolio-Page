@@ -6,12 +6,6 @@
 	padding: 0;
 }
 
-:root {
-	--container-width-lg: 76%;
-	--container-width-mg: 90%;
-	--container-width-sm: 94%;
-}
-
 body {
 	position: relative;
 	font-size: 19px;
@@ -48,6 +42,39 @@ body {
 	p {
 		padding-top: 30px;
 		color: rgb(161, 159, 159);
+	}
+}
+@media (max-width: 680px) {
+	.main__content {
+		.main-content__name {
+			font-size: 2rem;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.main__content {
+		.main-content__name {
+			font-size: 3rem;
+		}
+
+		h1 {
+			font-size: 3rem;
+		}
+	}
+}
+@media (max-width: 1020px) {
+	.main__content {
+		.main-content__name {
+			font-size: 4rem;
+		}
+
+		h1 {
+			font-size: 4rem;
+		}
 	}
 }
 .main-readme__header {
@@ -122,6 +149,12 @@ h2 {
 	font-size: 3rem;
 	font-weight: bold;
 	color: rgb(252, 252, 252);
+}
+
+.active {
+	background-color: rgba(43, 50, 59);
+	border-radius: 7px;
+	max-width: 393px;
 }
 
 .toolbox {

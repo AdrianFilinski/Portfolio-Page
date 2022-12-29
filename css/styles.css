@@ -14,6 +14,11 @@ body {
   line-height: 2;
 }
 
+.container {
+  margin: 0 auto;
+  width: var(--container-width-lg);
+}
+
 .main__content {
   justify-content: center;
   align-items: center;
@@ -23,47 +28,44 @@ body {
   padding: 10px;
   height: 100%;
 }
-
 .main__content .main-content__name {
   font-size: 6rem;
   font-weight: 700;
 }
-
 .main__content h1 {
   font-weight: 700;
   font-size: 6rem;
   padding-top: 100px;
 }
-
-@media (max-width:680px) {
-  .main__content {
-    padding-top: 40px;
-  }
-
-  .main__content .main-content__name, .main__content h1 {
-    font-weight: 700;
-    font-size: 2rem;
-    padding-top: 10px;
-  }
-}
-
-@media (min-width:681px) {
-  .main__content .main-content__name, .main__content h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width:820px) {
-  .main__content .main-content__name, .main__content h1 {
-    font-size: 4rem;
-  }
-}
-
 .main__content p {
   padding-top: 30px;
   color: rgb(161, 159, 159);
 }
 
+@media (max-width: 680px) {
+  .main__content .main-content__name {
+    font-size: 2rem;
+  }
+  .main__content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .main__content .main-content__name {
+    font-size: 3rem;
+  }
+  .main__content h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1020px) {
+  .main__content .main-content__name {
+    font-size: 4rem;
+  }
+  .main__content h1 {
+    font-size: 4rem;
+  }
+}
 .main-readme__header {
   padding: 10px;
   background-color: hsla(0deg, 0%, 4%, 0.8);
@@ -74,7 +76,6 @@ body {
   background-color: #1d1f21;
   padding: 20px;
 }
-
 .main-readme__content li {
   list-style: none;
 }
@@ -106,12 +107,10 @@ body {
   padding: 30px;
   margin: 20px 10px;
 }
-
 .experience-company__empik h3,
 .experience-company__tmobile h3 {
   font-size: 22px;
 }
-
 .experience-company__empik span,
 .experience-company__tmobile span {
   font-size: 15px;
@@ -131,12 +130,17 @@ body {
     flex-direction: column;
   }
 }
-
 h2 {
   margin: 5rem 1rem 1rem 1rem;
   font-size: 3rem;
   font-weight: bold;
   color: rgb(252, 252, 252);
+}
+
+.active {
+  background-color: rgb(43, 50, 59);
+  border-radius: 7px;
+  max-width: 393px;
 }
 
 .toolbox {
@@ -148,10 +152,7 @@ h2 {
   font-size: 28px;
   color: rgb(161, 159, 159);
 }
-
 .toolbox span {
   margin: 10px;
   display: block;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
