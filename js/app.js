@@ -14,16 +14,16 @@ const setEmpikExperience = () => {
     date.textContent = "2021.07 - 2022.02";
     description.textContent = "ipsum dolor sit amet consectetur adipisicing elitTenetur odio praesentium libero voluptate voluptatibus fugiat nisi accusantium, repellat ducimus nobis nemocorrupti molestiae quasi nesciunt, et voluptatem labore provident maxime.";
     descriptionTools.textContent = 'JavaScirpt, HTML, CSS, Synerise, Splio, SMSApi, Firebase, Selligent, SQL, Power BI.'
-    empikExperience.classList.add('active');
-    tmobileExperience.classList.remove('active');
+    empikExperience.classList.add('select');
+    tmobileExperience.classList.remove('select');
 };
 
 const setTmobileExperience = () => {
     date.textContent = "2022.02 - Present";
     description.textContent = "Highly skilled in marketing automation, I have a holistic approach to build performant and great frontend campaigns user experiences and business values using"
     descriptionTools.textContent = 'JavaScirpt, HTML, CSS, Synerise, Exponea, Google Analytics.'
-    empikExperience.classList.remove('active');
-    tmobileExperience.classList.add('active');
+    empikExperience.classList.remove('select');
+    tmobileExperience.classList.add('select');
 }
 
 tmobileExperience.addEventListener('click', setTmobileExperience)
