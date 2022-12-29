@@ -3,7 +3,6 @@
 	width: 100%;
 	padding: 9px;
 	position: relative !important;
-	font-size: 1rem;
 
 	.nav__container {
 		display: flex;
@@ -44,5 +43,12 @@
 	.fa-github {
 		font-size: 24px;
 		cursor: pointer;
+	}
+}
+
+@media (max-width: 640px) {
+	.navbar-brand,
+	.logo {
+		font-size: 20px;
 	}
 }
