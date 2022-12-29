@@ -6,23 +6,12 @@
   padding: 0;
 }
 
-:root {
-  --container-width-lg: 76%;
-  --container-width-mg: 90%;
-  --container-width-sm: 94%;
-}
-
 body {
   position: relative;
   font-size: 19px;
   font-family: "Montserrat", sans-serif;
   background: rgb(17, 24, 39) 0%;
   line-height: 2;
-}
-
-.container {
-  margin: 0 auto;
-  width: var(--container-width-lg);
 }
 
 .main__content {
