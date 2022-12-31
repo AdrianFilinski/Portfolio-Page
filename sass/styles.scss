@@ -108,7 +108,7 @@ body {
 	font-size: 19px;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto;
-	gap: 5rem;
+	gap: 1rem;
 	color: rgb(252, 252, 252);
 	margin-top: 3rem;
 }
@@ -117,13 +117,13 @@ body {
 .experience-company__tmobile {
 	cursor: pointer;
 	padding: 30px;
-	margin: 20px 10px;
+	margin: 20px 1px;
 	h3 {
 		font-size: 22px;
 	}
 
 	span {
-		font-size: 15px;
+		font-size: 18px;
 	}
 }
 
@@ -135,6 +135,12 @@ body {
 
 .description-tools {
 	color: rgba(159, 170, 187);
+}
+
+.select {
+	background-color: rgb(43, 50, 59);
+	border-radius: 7px;
+	max-width: 393px;
 }
 
 @media (max-width: 1023px) {
