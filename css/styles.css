@@ -28,44 +28,23 @@ body {
   padding: 10px;
   height: 100%;
 }
+
 .main__content .main-content__name {
   font-size: 6rem;
   font-weight: 700;
 }
+
 .main__content h1 {
   font-weight: 700;
   font-size: 6rem;
   padding-top: 100px;
 }
+
 .main__content p {
   padding-top: 30px;
   color: rgb(161, 159, 159);
 }
 
-@media (max-width: 680px) {
-  .main__content .main-content__name {
-    font-size: 2rem;
-  }
-  .main__content h1 {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .main__content .main-content__name {
-    font-size: 3rem;
-  }
-  .main__content h1 {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 1020px) {
-  .main__content .main-content__name {
-    font-size: 4rem;
-  }
-  .main__content h1 {
-    font-size: 4rem;
-  }
-}
 .main-readme__header {
   padding: 10px;
   background-color: hsla(0deg, 0%, 4%, 0.8);
@@ -76,6 +55,7 @@ body {
   background-color: #1d1f21;
   padding: 20px;
 }
+
 .main-readme__content li {
   list-style: none;
 }
@@ -107,10 +87,12 @@ body {
   padding: 30px;
   margin: 20px 1px;
 }
+
 .experience-company__empik h3,
 .experience-company__tmobile h3 {
   font-size: 22px;
 }
+
 .experience-company__empik span,
 .experience-company__tmobile span {
   font-size: 18px;
@@ -130,14 +112,8 @@ body {
   max-width: 393px;
 }
 
-@media (max-width: 1023px) {
-  .experience {
-    display: flex;
-    flex-direction: column;
-  }
-}
 h2 {
-  margin: 5rem 1rem 1rem 1rem;
+  margin: 5rem 0.5rem 1rem;
   font-size: 3rem;
   font-weight: bold;
   color: rgb(252, 252, 252);
@@ -151,14 +127,59 @@ h2 {
 
 .toolbox {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap: wrap;
   margin: 10px;
   font-size: 28px;
   color: rgb(161, 159, 159);
 }
+
 .toolbox span {
   margin: 10px;
-  display: block;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+@media (min-width: 390px) and (max-width: 452px) {
+  .main__content .main-content__name {
+    font-size: 1.5rem;
+  }
+
+  .main__content h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 453px) and (max-width: 680px) {
+  .main__content .main-content__name {
+    font-size: 2.5rem;
+  }
+
+  .main__content h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 1002px) {
+  .main__content .main-content__name {
+    font-size: 3.5rem;
+  }
+
+  .main__content h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .experience {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 452px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
