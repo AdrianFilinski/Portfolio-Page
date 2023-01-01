@@ -18,6 +18,11 @@ body {
   margin: 0 auto;
   width: var(--container-width-lg);
 }
+.container h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main__content {
   justify-content: center;
@@ -28,18 +33,15 @@ body {
   padding: 10px;
   height: 100%;
 }
-
 .main__content .main-content__name {
   font-size: 6rem;
   font-weight: 700;
 }
-
 .main__content h1 {
   font-weight: 700;
   font-size: 6rem;
   padding-top: 100px;
 }
-
 .main__content p {
   padding-top: 30px;
   color: rgb(161, 159, 159);
@@ -55,9 +57,11 @@ body {
   background-color: #1d1f21;
   padding: 20px;
 }
-
 .main-readme__content li {
   list-style: none;
+}
+.main-readme__content li ul {
+  padding-left: 0.5rem;
 }
 
 .fa-square-js {
@@ -87,12 +91,10 @@ body {
   padding: 30px;
   margin: 20px 1px;
 }
-
 .experience-company__empik h3,
 .experience-company__tmobile h3 {
   font-size: 22px;
 }
-
 .experience-company__empik span,
 .experience-company__tmobile span {
   font-size: 18px;
@@ -120,66 +122,67 @@ h2 {
 }
 
 .active {
-  background-color: rgb(43, 50, 59);
-  border-radius: 7px;
-  max-width: 393px;
+  color: #ccc;
 }
 
 .toolbox {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 10px;
-  font-size: 28px;
+  font-size: 2rem;
+  overflow-x: auto;
   color: rgb(161, 159, 159);
+  margin-bottom: 40px;
 }
-
-.toolbox span {
-  margin: 10px;
+.toolbox div {
+  padding: 5px;
 }
 
 @media (min-width: 390px) and (max-width: 452px) {
   .main__content .main-content__name {
     font-size: 1.5rem;
   }
-
   .main__content h1 {
     font-size: 1.5rem;
   }
+  .container h2 {
+    font-size: 1.5rem;
+  }
+  .toolbox {
+    justify-content: left;
+  }
 }
-
 @media screen and (min-width: 453px) and (max-width: 680px) {
   .main__content .main-content__name {
     font-size: 2.5rem;
   }
-
   .main__content h1 {
     font-size: 2.5rem;
   }
+  .container h2 {
+    font-size: 2.5rem;
+  }
+  .toolbox {
+    justify-content: left;
+  }
 }
-
 @media (min-width: 681px) and (max-width: 1002px) {
   .main__content .main-content__name {
     font-size: 3.5rem;
   }
-
   .main__content h1 {
     font-size: 3.5rem;
   }
+  .container h2 {
+    font-size: 3rem;
+  }
+  .toolbox {
+    justify-content: left;
+  }
 }
-
 @media (max-width: 1023px) {
   .experience {
     display: flex;
     flex-direction: column;
   }
-}
-
-@media screen and (min-width: 390px) and (max-width: 452px) {
-  h2 {
-    font-size: 2rem;
-  }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
