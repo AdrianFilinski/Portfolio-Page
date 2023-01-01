@@ -146,6 +146,7 @@ h2 {
     font-size: 1.5rem;
   }
   .container h2 {
+    justify-content: left;
     font-size: 1.5rem;
   }
   .toolbox {
@@ -160,6 +161,7 @@ h2 {
     font-size: 2.5rem;
   }
   .container h2 {
+    justify-content: left;
     font-size: 2.5rem;
   }
   .toolbox {
@@ -174,6 +176,7 @@ h2 {
     font-size: 3.5rem;
   }
   .container h2 {
+    justify-content: left;
     font-size: 3rem;
   }
   .toolbox {

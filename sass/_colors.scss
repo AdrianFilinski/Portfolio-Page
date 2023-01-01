@@ -1,1 +1,10 @@
 $dark-color: #000;
+
+$background-color: radial-gradient(
+	circle,
+	rgb(17, 24, 39) 0%,
+	rgb(41, 64, 97) 20%,
+	rgb(41, 63, 96) 26%,
+	rgb(39, 60, 91) 29%,
+	rgb(17, 24, 39) 100%
+);
