@@ -20,7 +20,7 @@ body {
 }
 .container h2 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -127,10 +127,10 @@ h2 {
 
 .toolbox {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 2rem;
-  overflow-x: auto;
+  overflow: auto;
   color: rgb(161, 159, 159);
   margin-bottom: 40px;
 }
@@ -146,11 +146,7 @@ h2 {
     font-size: 1.5rem;
   }
   .container h2 {
-    justify-content: left;
     font-size: 1.5rem;
-  }
-  .toolbox {
-    justify-content: left;
   }
 }
 @media screen and (min-width: 453px) and (max-width: 680px) {
@@ -161,11 +157,7 @@ h2 {
     font-size: 2.5rem;
   }
   .container h2 {
-    justify-content: left;
     font-size: 2.5rem;
-  }
-  .toolbox {
-    justify-content: left;
   }
 }
 @media (min-width: 681px) and (max-width: 1002px) {
@@ -176,11 +168,7 @@ h2 {
     font-size: 3.5rem;
   }
   .container h2 {
-    justify-content: left;
     font-size: 3rem;
-  }
-  .toolbox {
-    justify-content: left;
   }
 }
 @media (max-width: 1023px) {
