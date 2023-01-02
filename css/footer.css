@@ -1,4 +1,4 @@
-footer {
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -8,19 +8,19 @@ footer {
   border-top: 1px solid #ccc;
   padding: 10px;
 }
-footer i {
+.footer i {
   padding: 10px;
   font-size: 24px;
 }
-footer span {
+.footer span {
   margin: 10px;
   cursor: pointer;
 }
-footer span a {
+.footer span a {
   text-decoration: none;
   color: #ccc;
 }
-footer .social-media a {
+.footer .footer__social a {
   color: #ccc;
 }
 

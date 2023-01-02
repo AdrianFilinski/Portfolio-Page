@@ -1,4 +1,4 @@
-footer {
+.footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -20,7 +20,7 @@ footer {
 			color: #ccc;
 		}
 	}
-	.social-media a {
+	.footer__social a {
 		color: #ccc;
 	}
 }

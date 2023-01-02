@@ -1,11 +1,11 @@
-const tmobileExperience = document.querySelector('.experience-company__tmobile');
-const empikExperience = document.querySelector('.experience-company__empik');
+const tmobileExperience = document.querySelector('.experience__company--tmobile');
+const empikExperience = document.querySelector('.experience__company--empik');
 const description = document.querySelector('.description');
 const empikDescription = document.querySelector('#empik_decription');
 const date = document.querySelector('.date');
 
 const header = document.querySelector('#header');
-const descriptionTools = document.querySelector('.description-tools');
+const descriptionTools = document.querySelector('.description--tools');
 
 
 
