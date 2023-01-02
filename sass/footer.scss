@@ -12,12 +12,18 @@
 		font-size: 24px;
 	}
 
-	span {
+	.footer__menu {
 		margin: 10px;
 		cursor: pointer;
+		font-size: 1rem;
 		a {
 			text-decoration: none;
 			color: #ccc;
+			padding: 0 3px;
+		}
+
+		.active {
+			color: #fff;
 		}
 	}
 	.footer__social a {
