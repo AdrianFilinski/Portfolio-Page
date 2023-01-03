@@ -1,8 +1,10 @@
 .navbar {
-	border: 0.5px solid rgba(43, 50, 59, 0.95);
+	border-bottom: 0.5px solid rgba(43, 50, 59, 0.95);
 	width: 100%;
 	padding: 9px;
-	position: relative !important;
+	background: rgba(17, 24, 39, 1) 0%;
+	z-index: 50;
+	position: fixed;
 
 	.nav__container {
 		display: flex;
