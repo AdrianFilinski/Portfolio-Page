@@ -28,7 +28,7 @@ header {
   overflow: hidden;
 }
 
-.header__container {
+.header {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
@@ -38,9 +38,10 @@ header {
 }
 
 .second {
-  border: 2px solid white;
+  border: 0.5px solid rgba(99, 106, 114, 0.95);
   padding: 20px;
   border-radius: 25px;
+  background: rgba(43, 50, 59, 0.95);
 }
 
 @media (max-width: 680px) {
@@ -53,5 +54,10 @@ header {
 @media (min-width: 681px) and (max-width: 1000px) {
   h1 {
     font-size: 3rem;
+  }
+}
+@media (max-width: 1023px) {
+  .header {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=about.css.map */
