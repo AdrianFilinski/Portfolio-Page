@@ -23,13 +23,11 @@ h1 {
 	margin-bottom: 5rem;
 }
 header {
-	position: relative;
 	overflow: hidden;
 }
 
 .header {
 	display: grid;
-	align-items: center;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
 	gap: 5rem;
