@@ -30,8 +30,15 @@ header {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
-	gap: 5rem;
+	gap: 6rem;
 	height: 100%;
+
+	.header__left {
+		h5 {
+			color: rgb(106 158 219);
+			font-weight: bold;
+		}
+	}
 }
 
 .second {
