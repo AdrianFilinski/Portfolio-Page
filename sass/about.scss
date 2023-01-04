@@ -34,6 +34,9 @@ header {
 	height: 100%;
 
 	.header__left {
+		div {
+			padding: 20px 0;
+		}
 		h5 {
 			color: rgb(106 158 219);
 			font-weight: bold;
