@@ -47,6 +47,7 @@ header {
   border: 1px solid rgba(98, 108, 121, 0.95);
   border-radius: 25px;
   width: 180px;
+  margin: 20px 0;
 }
 .react .react--icon {
   width: 72px;
