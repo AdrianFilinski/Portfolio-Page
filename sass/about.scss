@@ -45,6 +45,7 @@ header {
 }
 
 .react,
+.gatsby,
 .nodejs {
 	display: flex;
 	align-items: center;
@@ -58,6 +59,11 @@ header {
 	.node--icon {
 		width: 72px;
 		margin-bottom: 0px;
+	}
+	.gatsby--icon {
+		width: 52px;
+		padding: 5px;
+		margin: 0 8px;
 	}
 }
 
