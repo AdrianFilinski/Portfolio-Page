@@ -42,6 +42,17 @@ header {
   font-weight: bold;
 }
 
+.react {
+  background: rgba(43, 50, 59, 0.95);
+  border: 1px solid rgba(98, 108, 121, 0.95);
+  border-radius: 25px;
+  width: 180px;
+}
+.react .react--icon {
+  width: 72px;
+  margin-bottom: 0px;
+}
+
 .second {
   border: 0.5px solid rgba(99, 106, 114, 0.95);
   padding: 20px;
