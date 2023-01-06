@@ -100,14 +100,22 @@ header {
 }
 
 .github {
+	padding-top: 5px;
+}
+
+.github,
+.linkedin,
+.instagram {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 5px;
 
-	.fa-github {
+	.fa-github,
+	.fa-instagram,
+	.fa-linkedin {
 		margin: 5px;
 	}
-	.github--logo {
+	.logo {
 		display: flex;
 
 		.text {
@@ -119,8 +127,8 @@ svg {
 	margin: 10px;
 }
 
-.github-link,
-.github-link:hover {
+.link,
+.link:hover {
 	color: rgb(204, 204, 204);
 	text-decoration: none;
 }
