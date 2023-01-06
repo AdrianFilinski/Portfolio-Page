@@ -31,7 +31,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 6rem;
+  gap: 8rem;
   height: 100%;
 }
 .header .header__left div {
@@ -40,6 +40,9 @@ header {
 .header .header__left h5 {
   color: rgb(106, 158, 219);
   font-weight: bold;
+}
+.header .header__right {
+  margin-bottom: 2rem;
 }
 
 .react,
@@ -76,6 +79,7 @@ header {
   padding: 20px;
   border-radius: 25px;
   background: rgba(43, 50, 59, 0.95);
+  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,6 +91,39 @@ header {
 }
 .second .location {
   font-size: 0.9rem;
+  padding-bottom: 5px;
+}
+
+.social {
+  margin: 10px;
+  max-width: 250px;
+  min-width: 220px;
+  border-top: 1px solid #ccc;
+}
+
+.github {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.github .fa-github {
+  margin: 5px;
+}
+.github .github--logo {
+  display: flex;
+}
+.github .github--logo .text {
+  font-size: 16px;
+}
+
+svg {
+  margin: 10px;
+}
+
+.github-link,
+.github-link:hover {
+  color: rgb(204, 204, 204);
+  text-decoration: none;
 }
 
 @media (max-width: 680px) {
