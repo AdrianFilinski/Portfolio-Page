@@ -12,8 +12,8 @@ const descriptionTools = document.querySelector('.description--tools');
 
 const setEmpikExperience = () => {
     date.textContent = "2021.07 - 2022.02";
-    description.textContent = "ipsum dolor sit amet consectetur adipisicing elitTenetur odio praesentium libero voluptate voluptatibus fugiat nisi accusantium, repellat ducimus nobis nemocorrupti molestiae quasi nesciunt, et voluptatem labore provident maxime.";
-    descriptionTools.textContent = 'JavaScirpt, HTML, CSS, Synerise, Splio, SMSApi, Firebase, Selligent, SQL, Power BI.'
+    description.textContent = "Creating e-mail, SMS and push campaigns. Conducting A/B/X tests. Coordinating dedicated marketing campaigns. Created complex extensive triggered paths for Marketing Automation using";
+    descriptionTools.textContent = 'HTML, CSS, Synerise, Splio, SMSApi, Firebase, Selligent, SQL, Power BI.'
     empikExperience.classList.add('select');
     tmobileExperience.classList.remove('select');
 };
