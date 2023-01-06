@@ -138,6 +138,12 @@ h2 {
   padding: 5px;
 }
 
+.privacy {
+  color: rgb(161, 159, 159);
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 390px) and (max-width: 452px) {
   .main__content .main__content--name {
     font-size: 1.5rem;
