@@ -31,7 +31,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 8rem;
+  gap: 4rem;
   height: 100%;
 }
 .header .header__left div {
