@@ -76,6 +76,17 @@ header {
   padding: 20px;
   border-radius: 25px;
   background: rgba(43, 50, 59, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.second .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.second .location {
+  font-size: 0.9rem;
 }
 
 @media (max-width: 680px) {
