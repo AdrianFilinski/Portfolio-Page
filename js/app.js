@@ -3,12 +3,8 @@ const empikExperience = document.querySelector('.experience__company--empik');
 const description = document.querySelector('.description');
 const empikDescription = document.querySelector('#empik_decription');
 const date = document.querySelector('.date');
-
 const header = document.querySelector('#header');
 const descriptionTools = document.querySelector('.description--tools');
-
-
-
 
 const setEmpikExperience = () => {
     date.textContent = "2021.07 - 2022.02";
