@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: azure;
+	position: relative;
+	font-size: 19px;
+	font-family: "Montserrat", sans-serif;
+	background: rgb(17, 24, 39) 0%;
+	line-height: 2;
+}
+.projects {
+	margin-top: 50px;
+}
+
+.footer {
+	margin-top: 550px;
+}
