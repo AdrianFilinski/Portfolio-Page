@@ -18,6 +18,7 @@ body {
   margin: 0 auto;
   width: var(--container-width-lg);
 }
+
 .container h2 {
   display: flex;
   justify-content: left;
@@ -33,15 +34,18 @@ body {
   padding: 10px;
   height: 100%;
 }
+
 .main__content .main__content--name {
   font-size: 6rem;
   font-weight: 700;
 }
+
 .main__content h1 {
   font-weight: 700;
   font-size: 6rem;
   padding-top: 100px;
 }
+
 .main__content p {
   padding-top: 30px;
   color: rgb(225, 217, 217);
@@ -57,9 +61,11 @@ body {
   background-color: #1d1f21;
   padding: 20px;
 }
+
 .main__readme--content li {
   list-style: none;
 }
+
 .main__readme--content li ul {
   padding-left: 0.5rem;
 }
@@ -91,10 +97,12 @@ body {
   padding: 30px;
   margin: 20px 1px;
 }
+
 .experience__company--empik h3,
 .experience__company--tmobile h3 {
   font-size: 22px;
 }
+
 .experience__company--empik span,
 .experience__company--tmobile span {
   font-size: 18px;
@@ -134,6 +142,7 @@ h2 {
   color: rgb(161, 159, 159);
   margin-bottom: 40px;
 }
+
 .toolbox div {
   padding: 5px;
 }
@@ -148,38 +157,49 @@ h2 {
   .main__content .main__content--name {
     font-size: 1.5rem;
   }
+
   .main__content h1 {
     font-size: 1.5rem;
   }
+
   .container h2 {
     font-size: 1.5rem;
   }
 }
+
 @media screen and (min-width: 453px) and (max-width: 680px) {
   .main__content .main__content--name {
     font-size: 2.5rem;
   }
+
   .main__content h1 {
     font-size: 2.5rem;
   }
+
   .container h2 {
     font-size: 2.5rem;
   }
 }
+
 @media (min-width: 681px) and (max-width: 1002px) {
   .main__content .main__content--name {
     font-size: 3.5rem;
   }
+
   .main__content h1 {
     font-size: 3.5rem;
   }
+
   .container h2 {
     font-size: 3rem;
   }
 }
+
 @media (max-width: 1023px) {
   .experience {
     display: flex;
     flex-direction: column;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
