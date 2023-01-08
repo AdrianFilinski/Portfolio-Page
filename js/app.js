@@ -20,7 +20,7 @@ const setEmpikExperience = () => {
 
 const setTmobileExperience = () => {
     date.textContent = "2022.02 - Present";
-    description.textContent = "Highly skilled in marketing automation, I have a holistic approach to build performant and great frontend campaigns user experiences and business values using"
+    description.textContent = "Highly skilled in marketing automation and Developing strategies for using marketing automation and digital channels. Maintenance and optimization of current solutions. I have a holistic approach to build performant and great frontend campaigns user experiences and business values using"
     descriptionTools.textContent = 'JavaScirpt, HTML, CSS, Synerise, Exponea, Google Analytics.'
     empikExperience.classList.remove('select');
     tmobileExperience.classList.add('select');
