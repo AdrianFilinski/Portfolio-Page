@@ -1,4 +1,5 @@
 .navbar {
+  background: #3c3c3b;
   border-bottom: 0.5px solid rgba(43, 50, 59, 0.95);
   width: 100%;
   padding: 9px;
@@ -6,45 +7,56 @@
           backdrop-filter: blur(8px);
   z-index: 50;
   position: fixed;
+  font-weight: 700;
 }
 .navbar .nav__container {
   display: flex;
   justify-content: space-between;
 }
 .navbar .nav-link {
-  color: #ccc;
-  border-radius: 15px;
+  color: #dadada;
   margin: 0 10px;
 }
 .navbar .homepage {
   text-decoration: none;
+  color: #dadada;
+  line-height: 0;
+}
+.navbar .homepage .navbar-brand {
+  margin-bottom: 0px;
+}
+.navbar .homepage h1 {
+  color: #dadada;
+  font-weight: 700;
+  margin: 0px;
+}
+.navbar .homepage span {
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .navbar .nav-link.active {
-  color: #fff;
+  color: #d3af0e;
 }
 .navbar .nav-link:hover {
-  border-radius: 15px;
-  background-color: rgb(71, 70, 70);
-  color: #ccc;
-}
-.navbar .navbar-brand {
-  color: #fff;
+  color: #d3af0e;
 }
 .navbar .logo {
   width: 50px;
 }
 .navbar .navbar-toggler,
 .navbar .navbar-collapse {
-  color: #fff;
-}
-.navbar .fa-github {
-  font-size: 24px;
-  cursor: pointer;
+  color: #dadada;
+  border: none;
 }
 
 @media (max-width: 640px) {
   .navbar-brand,
   .logo {
     font-size: 20px;
+  }
+  .nav-link {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=nav.css.map */

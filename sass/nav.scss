@@ -1,10 +1,12 @@
 .navbar {
+	background: #3c3c3b;
 	border-bottom: 0.5px solid rgba(43, 50, 59, 0.95);
 	width: 100%;
 	padding: 9px;
 	backdrop-filter: blur(8px);
 	z-index: 50;
 	position: fixed;
+	font-weight: 700;
 
 	.nav__container {
 		display: flex;
@@ -12,38 +14,44 @@
 	}
 
 	.nav-link {
-		color: #ccc;
-		border-radius: 15px;
+		color: #dadada;
 		margin: 0 10px;
 	}
 	.homepage {
 		text-decoration: none;
+		color: #dadada;
+		line-height: 0;
+
+		.navbar-brand {
+			margin-bottom: 0px;
+		}
+		h1 {
+			color: #dadada;
+			font-weight: 700;
+			margin: 0px;
+		}
+		span {
+			padding: 0;
+			margin-bottom: 5px;
+			font-size: 12px;
+			font-weight: 500;
+		}
 	}
 
 	.nav-link.active {
-		color: #fff;
+		color: #d3af0e;
 	}
 
 	.nav-link:hover {
-		border-radius: 15px;
-		background-color: rgb(71, 70, 70);
-		color: #ccc;
-	}
-
-	.navbar-brand {
-		color: #fff;
+		color: #d3af0e;
 	}
 	.logo {
 		width: 50px;
 	}
 	.navbar-toggler,
 	.navbar-collapse {
-		color: #fff;
-	}
-
-	.fa-github {
-		font-size: 24px;
-		cursor: pointer;
+		color: #dadada;
+		border: none;
 	}
 }
 
@@ -52,4 +60,7 @@
 	.logo {
 		font-size: 20px;
 	}
-}
+	.nav-link {
+		font-size: 14px;
+	}
+} ;

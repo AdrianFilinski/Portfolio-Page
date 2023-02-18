@@ -10,7 +10,7 @@ body {
   position: relative;
   font-size: 19px;
   font-family: "Montserrat", sans-serif;
-  background: rgb(17, 24, 39) 0%;
+  background: rgb(230, 230, 231) 0%;
   line-height: 2;
 }
 
@@ -24,120 +24,46 @@ body {
   align-items: center;
 }
 
-.main__content {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  color: rgb(252, 252, 252);
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  color: #333;
   padding: 10px;
-  height: 100%;
+  line-height: 1.2;
 }
-.main__content .main__content--name {
-  font-size: 6rem;
+.hero .hero__left h5 {
+  color: rgb(106, 158, 219);
+  font-weight: 400;
+}
+.hero .hero__right {
+  margin: 2rem;
+}
+.hero .hero--name {
+  font-size: 2rem;
   font-weight: 700;
 }
-.main__content h1 {
+.hero h1 {
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 2rem;
   padding-top: 100px;
 }
-.main__content p {
+.hero p {
   padding-top: 30px;
   color: rgb(225, 217, 217);
 }
-
-.main__readme--header {
-  padding: 10px;
-  background-color: hsla(0deg, 0%, 4%, 0.8);
+.hero .foto {
+  background: #d3af0e;
+  border-radius: 25px;
+  width: 180px;
+  margin: 10px 0;
 }
 
-.main__readme--content {
-  color: #fff;
-  background-color: #1d1f21;
-  padding: 20px;
+@media (max-width: 1023px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
 }
-.main__readme--content li {
-  list-style: none;
-}
-.main__readme--content li ul {
-  padding-left: 0.5rem;
-}
-
-.fa-square-js {
-  font-size: 20px;
-  margin: 2px;
-  color: yellowgreen;
-}
-
-.header--text {
-  display: inline;
-  color: #ccc;
-}
-
-.experience {
-  display: grid;
-  font-size: 19px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 1rem;
-  color: rgb(252, 252, 252);
-  margin-top: 3rem;
-}
-
-.experience__company--empik,
-.experience__company--tmobile {
-  cursor: pointer;
-  padding: 30px;
-  margin: 20px 1px;
-}
-.experience__company--empik h3,
-.experience__company--tmobile h3 {
-  font-size: 22px;
-}
-.experience__company--empik span,
-.experience__company--tmobile span {
-  font-size: 18px;
-}
-
-.experience__decription .date {
-  font-weight: bold;
-}
-
-.description--tools {
-  color: rgb(159, 170, 187);
-}
-
-.select {
-  background-color: rgb(43, 50, 59);
-  border-radius: 7px;
-  max-width: 393px;
-}
-
-h2 {
-  margin: 5rem 0.5rem 1rem;
-  font-size: 3rem;
-  font-weight: bold;
-  color: rgb(252, 252, 252);
-}
-
-.active {
-  color: #fff;
-}
-
-.toolbox {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  font-size: 2rem;
-  overflow: auto;
-  color: rgb(161, 159, 159);
-  margin-bottom: 40px;
-}
-.toolbox div {
-  padding: 5px;
-}
-
 .privacy {
   color: rgb(161, 159, 159);
   font-size: 15px;
